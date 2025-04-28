@@ -17,7 +17,7 @@ import Navbar from './components/navbar'
 import Footer from "./components/footer";
 
 export const metadata = {
-  title: 'Jay Jhaveri Portfolio',
+  title: 'Jay Jhaveri',
   description: 'Senior Software Engineer specializing in AI-driven mobile development',
 }
 
