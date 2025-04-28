@@ -31,7 +31,7 @@ export default function Hero() {
                 transition={{ duration: 1 }}
                 className="text-gray-600 text-lg max-w-2xl mb-8"
             >
-                I build intelligent mobile solutions powered by Flutter, Firebase, and Generative AI.
+                I engineer intelligent systems that automate workflows, power user experiences, and leverage AI innovation.
             </motion.p>
 
             <Link href="#projects">
