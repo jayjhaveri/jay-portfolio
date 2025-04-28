@@ -12,8 +12,9 @@ export default function Hero() {
                 transition={{ duration: 0.6 }}
                 className="text-5xl md:text-6xl font-bold mb-6"
             >
-                Hi, I'm Jay Jhaveri <motion.span animate={{ rotate: [0, 20, -20, 20, 0] }} transition={{ repeat: Infinity, duration: 2 }} className="inline-block origin-bottom-left">👋</motion.span>
+                Hi, I'm Jay Jhaveri <span className="inline-block">👋</span>
             </motion.h1>
+
 
             <motion.p
                 initial={{ opacity: 0, y: 20 }}
