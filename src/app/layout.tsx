@@ -18,7 +18,7 @@ import Footer from "./components/footer";
 
 export const metadata = {
   title: 'Jay Jhaveri',
-  description: 'Senior Software Engineer specializing in AI-driven mobile development',
+  description: 'Engineering intelligent solutions by blending mobile, AI, and automation.',
 }
 
 export default function RootLayout({
@@ -31,8 +31,10 @@ export default function RootLayout({
       <body className="bg-white text-gray-800 antialiased">
         <div className="max-w-5xl mx-auto px-6">
           <Navbar />
-          {children}
-          <Footer /> {/* 👈 Add this Footer below all page content */}
+          <main className="max-w-5xl mx-auto px-6">
+            {children}
+          </main>
+          <Footer />
         </div>
       </body>
     </html>

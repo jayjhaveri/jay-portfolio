@@ -33,3 +33,7 @@ body {
 .container {
   @apply max-w-4xl mx-auto px-4;
 }
+
+html {
+  scroll-behavior: smooth;
+}
