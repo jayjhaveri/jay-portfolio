@@ -10,7 +10,7 @@ const About = () => {
     { name: 'OpenAI', icon: <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="OpenAI" className="w-10 h-10" /> },
     { name: 'TypeScript', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-10 h-10" /> },
     { name: 'Anthropic', icon: <span className="text-2xl font-bold">A\\</span> },
-    { name: 'React', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-10 h-10" /> }
+    { name: 'Kotlin', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" className="w-10 h-10" /> }
   ];
 
   return (
