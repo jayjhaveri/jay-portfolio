@@ -17,10 +17,10 @@ const Projects = () => {
                   Built TiramiAI, an AI-driven mobile code generation and self-healing engine. It generates full Flutter apps from user text or voice prompts — and continuously evolves them. Users can report issues or suggest improvements directly from the app. TiramiAI analyzes feedback, regenerates affected screens, and automatically updates the apps to Play Store and App Store — accelerating traditional development cycles by 10x. 20+ production-ready apps generated and shipped in beta using this system.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <PrimaryButton href="https://play.google.com/store" external icon="play">
+                  <PrimaryButton href="https://play.google.com/store/apps/developer?id=ZPQV,+INC." external icon="play">
                     View Beta Apps on Play Store
                   </PrimaryButton>
-                  <SecondaryButton href="https://tiramai.ai" external>
+                  <SecondaryButton href="https://tiram.ai" external>
                     View TiramiAI <i className="bi bi-box-arrow-up-right ml-1"></i>
                   </SecondaryButton>
                 </div>
