@@ -1,20 +1,25 @@
-
 import React from 'react';
 import Layout from '../components/Layout';
 import ProjectCard from '../components/ProjectCard';
 import PrimaryButton from '../components/PrimaryButton';
+import SecondaryButton from '../components/SecondaryButton';
 
 const Projects = () => {
   return (
     <Layout>
       <div className="py-16">
+        {/* TiramiAI Highlighted Section */}
         <div className="mb-16">
           <div className="bg-blue-950 text-white rounded-3xl overflow-hidden">
             <div className="flex flex-col-reverse lg:flex-row">
               <div className="p-8 lg:p-12 lg:w-1/2">
-                <h2 className="text-3xl font-bold mb-2">TiramiAI - From Concept to Creation</h2>
+                <h2 className="text-3xl font-bold mb-2">TiramiAI – From Concept to Creation</h2>
                 <p className="mb-8 text-blue-100">
-                  Built TiramiAI, an AI-driven mobile code generation and self-healing engine. It generates full Flutter apps from user text or voice prompts — and continuously evolves them. Users can report issues or suggest improvements directly from the app. TiramiAI analyzes feedback, regenerates affected screens, and automatically updates the apps to Play Store and App Store — accelerating traditional development cycles by 10x. 20+ production-ready apps generated and shipped in beta using this system.
+                  At <strong>Thinkbridge</strong>, I contributed to <strong>TiramiAI</strong> — an AI-powered platform that generates both mobile and web apps from natural language prompts.
+                  <br /><br />
+                  My work focused on engineering the mobile workflows: generating complete Flutter apps from user inputs and building self-healing capabilities. Users can report issues or suggest changes directly from within the app, triggering regeneration of affected screens and automated deployment to the Play Store and App Store.
+                  <br /><br />
+                  We've already shipped <strong>20+ production-ready apps</strong> using this system, significantly accelerating development timelines.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <PrimaryButton href="https://play.google.com/store/apps/developer?id=ZPQV,+INC." external icon="play">
@@ -36,6 +41,7 @@ const Projects = () => {
           </div>
         </div>
 
+        {/* Other Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           <ProjectCard
             title="CareAlert – Wellness Monitoring App"
@@ -80,6 +86,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-// Import the SecondaryButton component to fix the undefined error
-import SecondaryButton from '../components/SecondaryButton';
