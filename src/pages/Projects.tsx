@@ -8,14 +8,14 @@ const Projects = () => {
   return (
     <Layout>
       <div className="py-16">
-        {/* TiramiAI Highlighted Section */}
+        {/* TiramAI Highlighted Section */}
         <div className="mb-16">
           <div className="bg-blue-950 text-white rounded-3xl overflow-hidden">
             <div className="flex flex-col-reverse lg:flex-row">
               <div className="p-8 lg:p-12 lg:w-1/2">
-                <h2 className="text-3xl font-bold mb-2">TiramiAI – From Concept to Creation</h2>
+                <h2 className="text-3xl font-bold mb-2">TiramAI – From Concept to Creation</h2>
                 <p className="mb-8 text-blue-100">
-                  At <strong>Thinkbridge</strong>, I contributed to <strong>TiramiAI</strong> — an AI-powered platform that generates both mobile and web apps from natural language prompts.
+                  At <strong>Thinkbridge</strong>, I contributed to <strong>TiramAI</strong> — an AI-powered platform that generates both mobile and web apps from natural language prompts.
                   <br /><br />
                   My work focused on engineering the mobile workflows: generating complete Flutter apps from user inputs and building self-healing capabilities. Users can report issues or suggest changes directly from within the app, triggering regeneration of affected screens and automated deployment to the Play Store and App Store.
                   <br /><br />
@@ -26,14 +26,14 @@ const Projects = () => {
                     View Beta Apps on Play Store
                   </PrimaryButton>
                   <SecondaryButton href="https://tiram.ai" external>
-                    View TiramiAI <i className="bi bi-box-arrow-up-right ml-1"></i>
+                    View TiramAI <i className="bi bi-box-arrow-up-right ml-1"></i>
                   </SecondaryButton>
                 </div>
               </div>
               <div className="lg:w-1/2 bg-gradient-to-br from-blue-900 to-blue-950 p-8 flex items-center justify-center">
                 <img
                   src="tiram-ai-image.png"
-                  alt="TiramiAI Preview"
+                  alt="TiramAI Preview"
                   className="max-w-full max-h-96 object-contain"
                 />
               </div>
